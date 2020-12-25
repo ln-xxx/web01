@@ -1,0 +1,25 @@
+<import src="/pages/artical-item-template/item-template.wxml"></import>
+<!--文章列表页面-->
+<view class="artical_container">
+    <!--轮播图组件-->
+    <swiper  class="swiper_container"
+        indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}"
+        interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}px" next-margin="{{nextMargin}}px">
+        <block wx:for="{{background}}"  wx:key="*this">
+          <swiper-item>
+            <!--
+            <image src="/images/{{item}}"></image>
+            -->
+            <image src="{{item}}"></image>
+          </swiper-item>
+        </block>
+    </swiper>
+
+      <!--文章列表-->
+      <block  wx:for="{{articals}}" wx:for-item="item" wx:for-index="idx" wx:key='k'>
+        <view catchtap="go_detail" data-aid="{{item.articleid}}">
+          <template is="artical_item" data='{{...item}}'></template>
+        </view>
+      </block>
+
+</view>

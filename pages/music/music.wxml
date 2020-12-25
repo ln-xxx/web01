@@ -1,0 +1,11 @@
+<!--音乐-->
+<view class='songContainer'>
+  <text class='title'>热歌榜</text>
+  <block wx:for="{{songlist}}" wx:for-item="item" wx:key='unique'>
+    <view class='song'>
+        <image src="{{item.pic_small}}"></image>
+        <text class='name'>{{item.title}}</text>
+        <text class='author'>{{item.author}}</text>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,43 @@
+{
+  
+  "pages":[
+    "pages/artical/artical",
+    "pages/music/music",
+    "pages/souye/souye",
+    "pages/artical-detail/artical-detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#109D59",
+    "navigationBarTitleText": "文章和音乐",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor":"#000",
+    "borderStyle":"black",
+    "position":"bottom",
+    "list": [
+    
+      {
+        "pagePath": "pages/artical/artical",
+        "text": "文章",
+        "iconPath": "/images/board.png",
+        "selectedIconPath": "/images/board-actived.png"
+      },
+      {
+        "pagePath": "pages/music/music",
+        "text": "音乐",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home-actived.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

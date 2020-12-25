@@ -1,0 +1,18 @@
+@import "../artical-item-template/item-template.wxss";
+
+/* 文章css */
+.artical_container{
+  width: 100%;
+  height: auto;
+  background-color: #f1f1f1;
+}
+
+.swiper_container{
+  width: 750rpx;
+  height: 320rpx;
+}
+.swiper_container image{
+  width: 100%;
+}
+
+

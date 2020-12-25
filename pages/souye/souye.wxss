@@ -1,0 +1,36 @@
+/* pages/souye/souye.wxss */
+.souye_container{
+  width: 750rpx;
+  display: flex; /*转化为弹性盒模型*/
+  flex-direction: column; /*显示为1列*/
+  align-items: center; /*居中*/
+  padding: 0;
+}
+/*logo图片 195px 100px*/
+.logo{
+  width: 390rpx;
+  height: 200rpx;
+  margin-top: 124rpx;
+}
+.user_name{
+  color: #378742;
+  font-weight: bolder;
+  margin-top: 120rpx;
+  font-size:24rpx ;
+}
+.btn{
+  width:308rpx ; /*155  46*/
+  height: 92rpx;
+  border: 1px solid #378742;
+  border-radius: 10rpx;
+  line-height: 92rpx;  /*行高等于高度时字体垂直居中*/
+  font-size: 22rpx;
+  color:  #378742;
+  text-align: center;
+  margin-top: 40rpx;
+} 
+
+
+
+
+

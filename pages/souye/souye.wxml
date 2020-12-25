@@ -1,0 +1,18 @@
+<!--首页-->
+<view class="souye_container">
+  <image class="logo" src="/images/logo.png"></image>
+  <text class="user_name">Hello:zzy</text>
+  <!--三个按钮-->
+  <view class="btn fenxiang" bindtap="go">
+    <text>和音乐一起分享时光</text>
+  </view>
+  <view class="btn weizhi" bindtap="getLocation">
+    <text>查看当前位置</text>
+  </view>
+  <view class="btn lianxi" bindtap="callMe">
+    <text>联系我们</text>
+  </view>
+    
+
+
+</view>

@@ -1,0 +1,4 @@
+<!--pages/artical-detail/artical-detail.wxml-->
+<text>页面详情</text>
+<view>{{artical.title}}</view>
+<text>{{artical.detail}}</text>

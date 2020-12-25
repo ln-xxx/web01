@@ -1,0 +1,62 @@
+/*文章列表样式*/
+.artical_list{
+  display: flex;  
+  flex-direction: column;
+  margin-top: 20rpx;
+  padding:10rpx;
+  background-color: #fff;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+/* 头像和名字日期 */
+.author_time{
+  margin-top: 32rpx;
+  margin-bottom: 30rpx;
+}
+.author_time .head{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle; /*图片和字体在一行,设置垂直居中*/
+}
+.author_time .name{
+  margin-left: 20rpx;
+}
+.author_time .time{
+  margin-left: 20rpx;
+  font-size:28rpx;
+}
+
+/*标题*/
+.title{
+  font-size: 34rpx;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.artical_img{
+  width: 100%;
+  height: 340rpx;
+  margin-bottom:20rpx ;
+}
+.article_text{
+  color:#666;
+  font-size: 24rpx;
+  letter-spacing: 2rpx; /*字符间距*/
+  line-height: 44rpx; /*行高*/
+}
+/*收藏和分享*/
+.artical_like{
+  font-size: 24rpx;
+  flex-direction: row;
+}
+.artical_like .artical_like_icon{
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle; /*字体垂直居中*/
+  margin-right: 10rpx;
+}
+.artical_like .artical_like_text{
+  margin-right: 20px;
+}

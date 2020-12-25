@@ -1,0 +1,34 @@
+.songContainer{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  padding: 40rpx;
+  font-size: 50rpx;
+  font-weight: bold;
+  color: #666;
+  text-shadow: 0 0 5px red;
+}
+.song{
+  flex-direction: row;
+  border-bottom: 1px dotted #666;
+  width: 100%;
+  height: 160rpx;
+  padding:  20rpx;
+
+}
+.song image{
+  width: 160rpx;
+  height: 160rpx;
+  vertical-align: middle;
+}
+.song text{
+  font-size: 36rpx;
+  margin-left: 40rpx;
+  display: inline-block;
+  width: 200rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border: 1px solid red;
+}
